@@ -1,3 +1,17 @@
 /opt/homebrew/etc/nginx/nginx.conf
 
+Запуск вэб-приложения -> index.html (Menu:Open with Live Server)
+
+Запуск nGinx
 sudo nginx -s stop && sudo nginx
+
+nginx: [error] open() "/opt/homebrew/var/run/nginx.pid" failed (2: No such file or directory)
+sudo nginx
+
+cp /Users/aasudakov/Documents/projects/nChan/ngnx.conf.accel /opt/homebrew/etc/nginx/nginx.conf
+
+================================================================================================
+1. go run auth/main.go 
+2. sudo nginx -s stop && sudo nginx
+3. Open with Live Server -> index.html
+================================================================================================
